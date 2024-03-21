@@ -1,13 +1,19 @@
 
 import './App.css'
+import LineChart from './components/LineChart/LineChart'
+// import Nav from './components/Nav/Nav'
+import NavBar from './components/NavBar/NavBar' 
+import PriceOptions from './components/PriceOptions/PriceOptions'
 
 function App() {
  
 
   return (
     <>
-   
-      <h1 className='text-5xl'>Vite + React</h1>
+      <NavBar></NavBar>
+      {/* <Nav></Nav> */}
+      <PriceOptions></PriceOptions>
+      <LineChart></LineChart>
      
       
     </>
